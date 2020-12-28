@@ -1,0 +1,130 @@
+#welcome {
+  padding: 4vw;
+  width: 90vw;
+  height: 35vw;
+  margin: auto;
+  padding-top: 6.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-logo {
+  height: 20vw;
+  pointer-events: none;
+  margin-bottom: 5vw;
+}
+
+#details {
+  margin-top: 7.5vw;
+  margin-left: -12.5vw;
+}
+
+#welcome-description {
+  color: #E3EDEE;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  color: #E3EDEE;
+  width: 10vw;
+  height: 2.5vw;
+  text-align: center;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.25vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  transition-duration: 0.1s;
+  background-color: #2B74A3;
+}
+
+button:hover {
+  border: solid #E3EDEE 2px;
+}
+
+button:active {
+  border: solid #E3EDEE 2px;
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px){
+  #welcome {
+    width: 85vw;
+    height: 55vw;
+  }
+  #welcome-logo {
+    height: 28vw;
+  }
+  #details {
+    margin-top: 23vw;
+    margin-left: -23vw;
+    text-align: right;
+  }
+  #welcome-description {
+    font-size: 1.5rem;
+  }
+  button {
+    width: 25vw;
+    height: 7.5vw;
+    font-size: 1.1rem;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Landscape) {
+  #welcome {
+    width: 95vw;
+    padding-top: 8vw;
+  }
+  #welcome-logo {
+    height: 22vw;
+  }
+  #details {
+    margin-top: 14vw;
+    margin-left: -14vw;
+    text-align: left;
+  }
+  #welcome-description {
+    font-size: 1.8rem;
+  }
+  button {
+    width: 22.5vw;
+    height: 7.5vw;
+    font-size: 2rem;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Portrait) {
+  #welcome {
+    width: 95vw;
+    padding-top: 10vw;
+  }
+  #welcome-logo {
+    height: 23vw;
+  }
+  #details {
+    margin-top: 14vw;
+    margin-left: -14vw;
+    text-align: left;
+  }
+  #welcome-description {
+    font-size: 1.8rem;
+  }
+  button {
+    width: 20vw;
+    height: 6vw;
+    font-size: 1.8rem;
+  }
+}
