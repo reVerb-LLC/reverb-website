@@ -1,0 +1,52 @@
+#about {
+  margin: auto;
+  margin-top: 1vw;
+  height: 47vw;
+  width: 99.33vw;
+  background-color: #091720;
+  border-top: solid #2B74A3 1px;
+  border-bottom: solid #2B74A3 1px;
+  text-align: center;
+}
+
+#features {
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #E3EDEE;
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px){
+  #about {
+    height: 85vw;
+  }
+  #features {
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+    font-size: 2.2rem;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Landscape) {
+  #features {
+    margin-top: 2vw;
+    margin-bottom: 0;
+    font-size: 2.2rem;
+  }
+}
+
+
+/* Tablet Portrait Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Portrait) {
+  #about {
+    height: 65vw;
+  }
+  #features {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 2.8rem;
+  }
+}
