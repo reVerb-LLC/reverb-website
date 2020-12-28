@@ -1,0 +1,156 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0; 
+  width: 100vw; 
+  height: 3vw;
+  background-color: #0F2938;
+  margin: auto;
+  z-index: 2;
+  box-sizing: content-box;
+  border-bottom: solid #2B74A3 1px;
+  transition: top 0.5s;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #E3EDEE;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 800;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #E3EDEE;
+  color: #0F2938;
+}
+
+.navbar a:active {
+  background-color: #E3EDEE;
+  color: #0F2938;
+}
+
+.navbar input[type=text] {
+  outline: none;
+  float: right;
+  padding: 0.5rem;
+  border: solid #2B74A3 2px;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-right: 10vw;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #091720;
+  color: #E3EDEE;
+  width: 12vw;
+  transition-duration: 0.4s;
+}
+
+.navbar input[type=text]:focus {
+  border: solid #E3EDEE 2px;
+  width: 15vw;
+}
+
+#logo_link{
+  padding: none;
+  margin-left: 8.5vw;
+  margin-top: 0.5rem
+}
+
+#reverb {
+  height: 1.4vw;
+  vertical-align: text-top;
+}
+
+#mini-logo {
+  height: 2vw;
+  margin-right: 0.3vw;
+  position: relative;
+  top: -0.25vw;
+  vertical-align: text-top;
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px) and (orientation: Portrait) {
+  .navbar {
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 0;
+  }
+  .navbar input[type=text] {
+    float: left;
+    font-size: 1.2rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0.25rem;
+    width: 17.5vw;
+  }
+  .navbar input[type=text]:focus {
+    width: 17.5vw;
+  }
+  #logo_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #reverb {
+    height: 1.6rem;
+  }
+  #mini-logo {
+    height: 6.5vw;
+    margin-right: 1.5vw;
+  }
+}
+
+
+/* Smartphone Landscape and Tablet Portrait Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px){
+  .navbar {
+    height: 7.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 0;
+  }
+  .navbar input[type=text] {
+    float: left;
+    font-size: 1.6rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0.25rem;
+    width: 20vw;
+  }
+  .navbar input[type=text]:focus {
+    width: 20vw;
+  }
+  #logo_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #reverb {
+    height: 2.4rem;
+  }
+  #mini-logo {
+    height: 4.5vw;
+    margin-right: 1vw;
+  }
+}
