@@ -1,0 +1,19 @@
+.app {
+  text-align: center;
+}
+
+.footer {
+  padding: 1vw;
+  height: 5vw;
+  background-color: #091720;
+  margin: auto;
+  width: 97.33vw;
+  margin-top: 1vw;
+  color: #E3EDEE;
+  font-size: 1vw;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  border-top: solid #2B74A3 1px;
+}
