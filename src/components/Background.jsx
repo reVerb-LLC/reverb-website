@@ -1,19 +1,19 @@
 import React from "react";
 import "../styles/Background.css";
 
-function createCircles() {
-  const output = [];
-  for (let i = 0; i < 5; i++) {
-    output.push(<li key={`circle-${i}`} />);
-  }
-  return output;
-}
-
 function Background() {
-  const CIRCLES = createCircles();
+
+  const createCircles = () => {
+    const output = [];
+    for (let i = 0; i < 5; i++) {
+      output.push(<li key={`circle-${i}`} />);
+    }
+    return output;
+  }
+
   return (
     <div className="area">
-      <ul className="circles">{CIRCLES}</ul>
+      <ul className="circles">{createCircles()}</ul>
     </div>
   );
 }
