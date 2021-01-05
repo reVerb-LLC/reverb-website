@@ -68,3 +68,27 @@
     right: 5%;
   }
 }
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  #left-arrow {
+    height: 3.5vw;
+    left: 5%;
+  }
+  #right-arrow {
+    height: 3.5vw;
+    right: 5%;
+  }
+}
+
+/* Small Desktop Monitors */
+@media screen and (min-width: 1301px) and (max-width: 1700px){
+  #left-arrow {
+    height: 2.25vw;
+    left: 8%;
+  }
+  #right-arrow {
+    height: 2.25vw;
+    right: 8%;
+  }
+}

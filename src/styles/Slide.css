@@ -91,3 +91,25 @@
     font-size: 2rem;
   }
 }
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  #picture {
+    height: 44vw;
+  }
+  #description {
+    margin: 2vw;
+    font-size: 2.5rem;
+  }
+}
+
+/* Small Desktop Monitors */
+@media screen and (min-width: 1301px) and (max-width: 1700px){
+  #picture {
+    height: 38vw;
+  }
+  #description {
+    margin: 2vw;
+    font-size: 2.8rem;
+  }
+}
