@@ -3,17 +3,17 @@ import "../styles/Background.css";
 
 function Background() {
 
-  const createCircles = () => {
+  const createRings = () => {
     const output = [];
     for (let i = 0; i < 5; i++) {
-      output.push(<li key={`circle-${i}`} />);
+      output.push(<li key={`ring-${i}`} />);
     }
     return output;
   }
 
   return (
     <div className="area">
-      <ul className="circles">{createCircles()}</ul>
+      <ul className="rings">{createRings()}</ul>
     </div>
   );
 }

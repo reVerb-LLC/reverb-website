@@ -8,7 +8,7 @@
  
 }
 
-.circles{
+.rings{
   position: absolute;
   top: 0;
   left: 0;
@@ -20,30 +20,30 @@
   align-items: center;
 }
 
-.circles li{
+.rings li{
   position: absolute;
   list-style: none;
   animation: animate 16s ease-out infinite;
   border-radius: 100%;
 }
 
-.circles li:nth-child(1){
+.rings li:nth-child(1){
   animation-delay: 0s;
 }
 
-.circles li:nth-child(2){
+.rings li:nth-child(2){
   animation-delay: 3.5s;
 }
 
-.circles li:nth-child(3){
+.rings li:nth-child(3){
   animation-delay: 6s;
 }
 
-.circles li:nth-child(4){
+.rings li:nth-child(4){
   animation-delay: 8.5s;
 }
 
-.circles li:nth-child(5){
+.rings li:nth-child(5){
   animation-delay: 12s;
 }
 
