@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Team.css";
-import Contributor from "../components/Contributor";
+import Contributor from "./Contributor";
 import corey from "../media/team/corey.svg";
 import amir from "../media/team/amir.svg";
 import chris from "../media/team/chris.svg";
