@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import HomeButton from "./HomeButton";
-import "../styles/Header.css";
+import "../styles/NavigationBar.css";
 
 function NavigationBar() {
 
@@ -33,7 +33,7 @@ function NavigationBar() {
       >
         Github
       </a>
-      <div>
+      <div id="search-container">
         <input type="text" placeholder="Search..." />
       </div>
     </header>
