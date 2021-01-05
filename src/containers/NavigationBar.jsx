@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import HomeButton from "./HomeButton";
 import "../styles/Header.css";
 
@@ -17,8 +17,12 @@ function NavigationBar() {
     setNavBarTop(newTop);
   }
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+
   return (
-    <header className="navbar" style={{ top: navBarTop }} onScroll={handleScroll}>
+    <header className="navbar" style={{ top: navBarTop }}>
       <HomeButton />
       <a href="#docs">Docs</a>
       <a href="#donate">Donate</a>
@@ -29,7 +33,9 @@ function NavigationBar() {
       >
         Github
       </a>
-      <input type="text" placeholder="Search..." />
+      <div>
+        <input type="text" placeholder="Search..." />
+      </div>
     </header>
   );
 }
