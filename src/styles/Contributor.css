@@ -86,3 +86,21 @@
     margin-right: 1.5vw;
   }
 }
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  .photo {
+    height: 12vw;
+  }
+  .identifier {
+    font-size: 1.8rem;
+  }
+  .logo-links {
+    margin-bottom: 3vw;
+  }
+  .logos {
+    height: 3vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+}
