@@ -1,0 +1,115 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes slideOutToLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0%;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes slideOutToRight {
+  0% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0%;
+  }
+}
+
+#slide{
+  position: absolute;
+}
+
+#picture {
+  height: 35vw;
+  border: solid #E3EDEE 1px;
+  border-radius: 0.5vw;
+}
+
+#description {
+  margin-top: 1.5vw;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #E3EDEE;
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px){
+  #picture {
+    height: 42.5vw;
+  }
+  #description {
+    margin: 3vw;
+    font-size: 1.5rem;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Landscape) {
+  #picture {
+    height: 30vw;
+  }
+  #description {
+    margin: 1vw;
+    font-size: 1.6rem;
+  }
+}
+
+/* Tablet Portrait Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Portrait) {
+  #picture {
+    height: 42vw;
+  }
+  #description {
+    margin: 2vw;
+    font-size: 2rem;
+  }
+}
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  #picture {
+    height: 44vw;
+  }
+  #description {
+    margin: 2vw;
+    font-size: 2.5rem;
+  }
+}
+
+/* Small Desktop Monitors */
+@media screen and (min-width: 1301px) and (max-width: 1700px){
+  #picture {
+    height: 38vw;
+  }
+  #description {
+    margin: 2vw;
+    font-size: 2.8rem;
+  }
+}

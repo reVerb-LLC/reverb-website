@@ -1,0 +1,94 @@
+#left-arrow {
+  height: 2vw;
+  margin: 4vw;
+  transition-duration: 0.2s;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  left: 12.5%;
+}
+
+#left-arrow:hover {
+  transform: scale(1.2);
+}
+#left-arrow:active {
+  transform: scale(1.2);
+}
+
+#right-arrow {
+  transform: scale(-1);
+  height: 2vw;
+  margin: 4vw;
+  transition-duration: 0.2s;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  right: 12.5%;
+}
+
+#right-arrow:hover {
+  transform: scale(-1.2);
+}
+#right-arrow:active {
+  transform: scale(-1.2);
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px){
+  #left-arrow {
+    height: 8vw;
+    left: 1%;
+  }
+  #right-arrow {
+    height: 8vw;
+    right: 1%;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 1024px) and (orientation: Landscape) {
+  #left-arrow {
+    height: 5vw;
+    left: 5%;
+  }
+  #right-arrow {
+    height: 5vw;
+    right: 5%;
+  }
+}
+
+/* Tablet Portrait Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Portrait) {
+  #left-arrow {
+    height: 4vw;
+    left: 5%;
+  }
+  #right-arrow {
+    height: 4vw;
+    right: 5%;
+  }
+}
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  #left-arrow {
+    height: 3.5vw;
+    left: 5%;
+  }
+  #right-arrow {
+    height: 3.5vw;
+    right: 5%;
+  }
+}
+
+/* Small Desktop Monitors */
+@media screen and (min-width: 1301px) and (max-width: 1700px){
+  #left-arrow {
+    height: 2.25vw;
+    left: 8%;
+  }
+  #right-arrow {
+    height: 2.25vw;
+    right: 8%;
+  }
+}

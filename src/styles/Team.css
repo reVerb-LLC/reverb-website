@@ -1,0 +1,45 @@
+.team {
+  display: flex;
+  margin-top: 3vw;
+  justify-content: space-evenly;
+}
+
+#meet {
+  color: #ff9a1a;
+  font-size: 2.5vw;
+  font-weight: 700;
+  margin-top: 2.5vw;
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px){
+  #meet {
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+    font-size: 2.2rem;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 1024px) and (orientation: Landscape) {
+  #meet {
+    margin-top: 2vw;
+    font-size: 2.2rem;
+  }
+}
+
+/* Tablet Portrait Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Portrait) {
+  #meet {
+    margin-top: 2vw;
+    font-size: 2.8rem;
+  }
+}
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  #meet {
+    margin-top: 2vw;
+    font-size: 3.6rem;
+  }
+}

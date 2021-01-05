@@ -1,0 +1,51 @@
+#carousel {
+  margin-top: 9vw;
+  height: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Smartphone Portrait Mode Design */
+@media screen and (max-width: 600px){
+  #carousel {
+    margin-top: 18vw;
+    height: 35vw;
+  }
+}
+
+/* Smartphone Landscape Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Landscape) {
+  #carousel {
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    height: 32.5vw;
+  }
+}
+
+/* Tablet Portrait Mode Design */
+@media screen and (min-width: 601px) and (max-width: 900px) and (orientation: Portrait) {
+  #carousel {
+    margin-top: 13vw;
+    margin-bottom: 2vw;
+    height: 32.5vw;
+  }
+}
+
+/* Tablet Landscape Mode Design */
+@media screen and (min-width: 901px) and (max-width: 1300px){
+  #carousel {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    height: 32.5vw;
+  }
+}
+
+/* Small Desktop Monitors */
+@media screen and (min-width: 1301px) and (max-width: 1700px){
+  #carousel {
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+    height: 32.5vw;
+  }
+}
