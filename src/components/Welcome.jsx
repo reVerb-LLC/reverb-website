@@ -7,9 +7,7 @@ function Welcome() {
     <div id="welcome">
       <img src={reVerbLogo} id="welcome-logo" alt="logo" />
       <div id="details">
-        <p id="welcome-description">
-          A RESTful API client for Visual Studio Code
-        </p>
+        <p id="welcome-description">A RESTful API client for Visual Studio Code</p>
         <div className="welcome-buttons">
           <button>Video Demo</button>
           <a

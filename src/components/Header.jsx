@@ -1,19 +1,15 @@
 import React, { Component } from "react";
+import HomeButton from "../containers/HomeButton";
 import "../styles/Header.css";
-import miniLogo from "../media/reverbLogos/miniLogo.svg";
-import home from "../media/reverbLogos/home.svg";
-import homeHover from "../media/reverbLogos/home-hover.svg";
+
 
 class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      logoSrc: home,
       prevScrollPos: window.pageYOffset,
       navBarTop: 0,
     };
-    this.hover = this.hover.bind(this);
-    this.unhover = this.unhover.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
   }
 
@@ -34,27 +30,11 @@ class Header extends Component {
     });
   }
 
-  hover() {
-    this.setState({ logoSrc: homeHover });
-  }
-
-  unhover() {
-    this.setState({ logoSrc: home });
-  }
-
   render() {
-    const { logoSrc, navBarTop } = this.state;
+    const { navBarTop } = this.state;
     return (
       <header className="navbar" style={{ top: navBarTop }}>
-        <a
-          href="#home"
-          id="logo_link"
-          onMouseOver={this.hover}
-          onMouseOut={this.unhover}
-        >
-          <img src={miniLogo} id="mini-logo" alt="Logo"></img>
-          <img src={logoSrc} id="reverb" alt="Home"></img>
-        </a>
+        <HomeButton />
         <a href="#docs">Docs</a>
         <a href="#donate">Donate</a>
         <a
