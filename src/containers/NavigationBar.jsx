@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import HomeButton from "./HomeButton";
-import "../styles/NavigationBar.css";
 
 function NavigationBar() {
 

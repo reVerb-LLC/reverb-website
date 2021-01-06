@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Arrow.css";
 import arrow from "../media/icons/arrow.svg";
 import arrowHover from "../media/icons/arrow_hover.svg";
 

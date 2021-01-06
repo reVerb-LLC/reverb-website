@@ -7,8 +7,6 @@ import {
   fadeInRight,
 } from "react-animations";
 
-import "../styles/Slide.css";
-
 const FadeOutLeftAnimation = keyframes`${fadeOutLeft}`;
 const FadeOutRightAnimation = keyframes`${fadeOutRight}`;
 const FadeInLeftAnimation = keyframes`${fadeInLeft}`;

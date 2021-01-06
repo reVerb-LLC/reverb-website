@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import App from "./App";
 import Background from "./components/Background";
-import "./styles/index.css";
+import "./styles/index.scss";
 
 render(
   <div>

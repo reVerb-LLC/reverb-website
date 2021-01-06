@@ -1,7 +1,7 @@
 .area{
   position: fixed;
-  background: #0F2938;  
-  background: -webkit-radial-gradient(center, 100vw 100vw, #0F2938, #091720);  
+  background: $reverb-blue;  
+  background: -webkit-radial-gradient(center, 100vw 100vw, $reverb-blue, $reverb-dark-blue);  
   width: 100vw;
   height:100vh;
   z-index: -1;

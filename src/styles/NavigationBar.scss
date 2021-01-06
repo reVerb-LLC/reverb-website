@@ -7,11 +7,11 @@
   top: 0; 
   width: 100vw; 
   height: 5rem;
-  background-color: #0F2938;
+  background-color: $reverb-blue;
   margin: auto;
   z-index: 2;
   box-sizing: content-box;
-  border-bottom: solid #2B74A3 1px;
+  border-bottom: solid $reverb-light-blue 1px;
   transition: top 0.5s;
 }
 
@@ -33,7 +33,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: #E3EDEE;
+  color:$reverb-off-white;
   text-align: center;
   font-size: 2.4rem;
   font-weight: 800;
@@ -41,12 +41,12 @@
   text-decoration: none;
 }
 .navbar a:hover {
-  background-color: #E3EDEE;
-  color: #0F2938;
+  background-color:$reverb-off-white;
+  color: $reverb-blue;
 }
 .navbar a:active {
-  background-color: #E3EDEE;
-  color: #0F2938;
+  background-color:$reverb-off-white;
+  color: $reverb-blue;
 }
 
 #search-container {
@@ -57,18 +57,18 @@
   outline: none;
   float: right;
   padding: 0.5rem;
-  border: solid #2B74A3 2px;
+  border: solid $reverb-light-blue 2px;
   border-radius: 0.5rem;
   margin-right: 10vw;
   font-size: 1.8rem;
   font-weight: 600;
-  background-color: #091720;
-  color: #E3EDEE;
+  background-color: $reverb-dark-blue;
+  color:$reverb-off-white;
   width: 12vw;
   transition-duration: 0.4s;
 }
 .navbar input[type=text]:focus {
-  border: solid #E3EDEE 2px;
+  border: solid$reverb-off-white 2px;
   width: 15vw;
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import reVerbLogo from "../media/reverbLogos/reVerbLogo.svg";
-import "../styles/Welcome.css";
+
 
 function Welcome() {
   return (

@@ -3,9 +3,9 @@
   margin-top: 1vw;
   height: 47vw;
   width: 99.33vw;
-  background-color: #091720;
-  border-top: solid #2B74A3 1px;
-  border-bottom: solid #2B74A3 1px;
+  background-color: $reverb-dark-blue;
+  border-top: solid $reverb-light-blue 1px;
+  border-bottom: solid $reverb-light-blue 1px;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
   margin-bottom: 4vw;
   font-size: 5rem;
   font-weight: 700;
-  color: #E3EDEE;
+  color:$reverb-off-white;
 }
 
 /* Smartphone Portrait Mode Design */

@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Contributor.css";
 import githubLogo from "../media/externalLogos/github-logo.svg";
 import linkedInLogo from "../media/externalLogos/linkedin.svg";
 

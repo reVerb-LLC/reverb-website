@@ -7,7 +7,7 @@
 }
 
 /* Smartphone Portrait Mode Design */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   #carousel {
     margin-top: 18vw;
     height: 35vw;
@@ -33,7 +33,7 @@
 }
 
 /* Tablet Landscape Mode Design */
-@media screen and (min-width: 901px) and (max-width: 1300px){
+@media screen and (min-width: 901px) and (max-width: 1300px) {
   #carousel {
     margin-top: 12vw;
     margin-bottom: 2vw;
@@ -42,7 +42,7 @@
 }
 
 /* Small Desktop Monitors */
-@media screen and (min-width: 1301px) and (max-width: 1700px){
+@media screen and (min-width: 1301px) and (max-width: 1700px) {
   #carousel {
     margin-top: 8vw;
     margin-bottom: 2vw;

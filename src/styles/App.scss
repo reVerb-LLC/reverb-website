@@ -5,15 +5,15 @@
 .footer {
   padding: 1vw;
   height: 5vw;
-  background-color: #091720;
+  background-color: $reverb-dark-blue;
   margin: auto;
   width: 97.33vw;
   margin-top: 1vw;
-  color: #E3EDEE;
+  color:$reverb-off-white;
   font-size: 1vw;
   font-weight: 500;
   display: flex;
   justify-content: space-evenly;
   text-align: left;
-  border-top: solid #2B74A3 1px;
+  border-top: solid $reverb-light-blue 1px;
 }

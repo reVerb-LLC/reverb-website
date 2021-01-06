@@ -21,7 +21,7 @@
 }
 
 #welcome-description {
-  color: #E3EDEE;
+  color:$reverb-off-white;
   font-weight: 700;
   font-size: 3rem;
 }
@@ -36,7 +36,7 @@ button {
   border: none;
   outline: none;
   border-radius: 0.5rem;
-  color: #E3EDEE;
+  color:$reverb-off-white;
   width: 20rem;
   height: 5rem;
   text-align: center;
@@ -46,15 +46,15 @@ button {
   margin-top: 1vw;
   margin-left: 2vw;
   transition-duration: 0.1s;
-  background-color: #2B74A3;
+  background-color: $reverb-light-blue;
 }
 
 button:hover {
-  border: solid #E3EDEE 2px;
+  border: solid$reverb-off-white 2px;
 }
 
 button:active {
-  border: solid #E3EDEE 2px;
+  border: solid$reverb-off-white 2px;
 }
 
 /* Smartphone Portrait Mode Design */

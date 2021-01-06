@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../styles/Carousel.css";
 import Slide from "../components/Slide";
 import Arrow from "../components/Arrow";
 import sidebar from "../media/reverbScreenshots/sidebar.svg";
