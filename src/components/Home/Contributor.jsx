@@ -1,6 +1,6 @@
 import React from "react";
-import githubLogo from "../media/externalLogos/github-logo.svg";
-import linkedInLogo from "../media/externalLogos/linkedin.svg";
+import githubLogo from "../../media/externalLogos/github-logo.svg";
+import linkedInLogo from "../../media/externalLogos/linkedin.svg";
 
 function Contributor({image, name, github, linkedIn}) {
   return (

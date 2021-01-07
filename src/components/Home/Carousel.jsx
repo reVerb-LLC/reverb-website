@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Slide from "../components/Slide";
-import Arrow from "../components/Arrow";
-import sidebar from "../media/reverbScreenshots/sidebar.svg";
-import config from "../media/reverbScreenshots/config.svg";
-import output from "../media/reverbScreenshots/output.svg";
-import watch from "../media/reverbScreenshots/watch.svg";
-import axios from "../media/reverbScreenshots/axios.svg";
-import rightClick from "../media/reverbScreenshots/rightClick.svg";
+import Slide from "./Slide";
+import Arrow from "./Arrow";
+import sidebar from "../../media/reverbScreenshots/sidebar.svg";
+import config from "../../media/reverbScreenshots/config.svg";
+import output from "../../media/reverbScreenshots/output.svg";
+import watch from "../../media/reverbScreenshots/watch.svg";
+import axios from "../../media/reverbScreenshots/axios.svg";
+import rightClick from "../../media/reverbScreenshots/rightClick.svg";
 
 class Carousel extends Component {
   constructor(props) {

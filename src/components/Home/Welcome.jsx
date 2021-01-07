@@ -1,5 +1,5 @@
 import React from "react";
-import reVerbLogo from "../media/reverbLogos/reVerbLogo.svg";
+import reVerbLogo from "../../media/reverbLogos/reVerbLogo.svg";
 
 
 function Welcome() {

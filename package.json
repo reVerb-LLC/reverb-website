@@ -2,7 +2,7 @@
   "name": "reverb-website",
   "version": "0.1.0",
   "author": "reVerb LLC",
-  "homepage": "https://reVerb-LLC.github.io/reverb-website/",
+  "homepage": "https://www.reverb-vs.com/",
   "description": "Website for reVerb API Client extension",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -13,6 +13,7 @@
     "react": "^17.0.1",
     "react-animations": "^1.0.0",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
