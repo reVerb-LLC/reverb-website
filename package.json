@@ -2,7 +2,7 @@
   "name": "reverb-website",
   "version": "0.1.0",
   "author": "reVerb LLC",
-  "homepage": "https://www.reverb-vs.com/",
+  "homepage": "https://reverb-vs.com/",
   "description": "Website for reVerb API Client extension",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
